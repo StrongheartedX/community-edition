@@ -4,7 +4,7 @@ name: learnhouse-ce
 
 services:
   learnhouse-app:
-    image: ghcr.io/learnhouse/app:pr-527-5b6e911
+    image: ghcr.io/learnhouse/app:latest
     container_name: learnhouse-app
     restart: unless-stopped
     env_file:
